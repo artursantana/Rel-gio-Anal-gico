@@ -1,0 +1,112 @@
+
+body{
+    background-color: grey;
+    
+    
+}
+main{
+    width: 100%; height: 100vh;
+    display: flex;
+}
+
+.clock{
+    margin: auto;
+    min-width: 500px;min-height: 500px;
+    background-color: wheat;
+    border-radius: 250px;
+    box-shadow: 1px 1px 10px 5px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*NUMBERS*/
+
+
+.number{
+    position: absolute;
+    width: 100%; height: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+.number-1{
+    transform: rotate(30deg);
+}
+.number-2{
+    transform: rotate(60deg);
+}
+.number-3{
+    transform: rotate(90deg);
+}
+.number-4{
+    transform: rotate(120deg);
+}
+.number-5{
+    transform: rotate(150deg);
+}
+.number-6{
+    transform: rotate(180deg);
+}
+.number-7{
+    transform: rotate(210deg);
+}
+.number-8{
+    transform: rotate(240deg);
+}
+.number-9{
+    transform: rotate(270deg);
+}
+.number-10{
+    transform: rotate(300deg);
+}
+.number-11{
+    transform: rotate(330deg);
+}
+.number-12{
+    transform: rotate(00deg);
+}
+
+
+/*PONTEIROS*/
+
+.second-hand{
+    width: 1px;
+    height: 240px;
+    background-color: red;
+    position: absolute;
+    border-radius: 20px;
+    transform: translate(0,-50%);
+    transform-origin: bottom;
+    
+}
+.minute-hand{
+    width: 7px;
+    height: 210px;
+    background-color: black;
+    position: absolute;
+    border-radius: 20px;
+    transform: translate(0,-50%);
+    transform-origin: bottom;
+    
+}
+.hour-hand{
+    width: 15px;
+    height: 180px;
+    background-color: black;
+    position: absolute;
+    border-radius: 20px;
+    transform: translate(0,-50%);
+    transform-origin: bottom;
+    
+}
+
+.center{
+    width: 20px; height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+}
